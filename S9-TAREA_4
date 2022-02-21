@@ -1,0 +1,171 @@
+import os
+class ficha :
+    def init(self):
+        pass
+
+    def menu(self,opciones):
+        
+        print("------------------- MENU DE FICHA PERSONAL ------------------- ")
+        for opcion in opciones:
+            print(opcion)
+
+        opc=input("digite la ficha personal [1...{}]: ".format(len(opciones)))
+        return opc
+
+help=ficha()
+Lista=["1. Pilas","2. Colas","3. Listas","4. Salir"]
+
+opcion =" "
+
+while opcion != "4":
+    
+    os.system("cls")
+    
+    if opcion=="1":
+        class Menu :
+            def init(self):
+                pass
+        
+            def menu(self,opciones):
+                
+
+                print("-------------------  Usted ingresó al menú Pila -------------------  ")
+                for op in opciones:
+                    print(op)
+
+                opc=input("digite la ficha personal [1...{}]: ".format(len(opciones)))
+                return opc
+                
+            milis=[]
+                # for x in milis:
+                # milis_edd = print(milis)
+            print("-------------------  Usted ingresó al menú Pila -------------------  ")
+            print("cuantos elementos se va a requerir")
+            cant=int(input())
+            os.system("cls")
+            i=0
+            if cant <8:
+                    print("La lista está vacía")
+                    
+            while i<cant:
+                        print("Ingresar")
+                        nom=input()
+                        milis.append(nom)
+                        i+=1
+                        
+                        print("La Pila esta vacía")
+                      
+                        
+                        os.system("cls")
+                        print(milis)
+                    
+            else:
+                    print("La lista está llena")
+
+            print("La lista es: ",milis)
+
+            na=milis.pop(-1)
+            print("El elemento que va a salir es : ",na)
+
+            print(milis)
+
+        print("--------------------------------------------------------- ")
+        print()
+        
+    elif opcion=="2":
+        class ficha :
+            def init(self):
+                pass
+        
+            def menu(self,opciones):
+                
+                print("-------------------  Usted ingreso al menú Cola -------------------  ")
+                for opcion in opciones:
+                    print(opcion)
+
+                opc=input("Digitar la ficha personal [1...{}]: ".format(len(opciones)))
+                return opc             
+            milis=[]
+                # for x in milis:
+                # milis_edd = print(milis)
+            print("-------------------  Usted ingresó al menú cola-------------------  ")
+            print("Cuantos elementos va a desear ")
+            cant=int(input())
+            os.system("cls")
+            i=0
+            if cant <8:
+                    print("La lista está vacía")
+                    
+            while i<cant:
+                        print("Ingrese")
+                        nom=input()
+                        milis.append(nom)
+                        i+=1
+                        
+                        print("La Pila está vacía")
+                                    
+                        os.system("cls")
+                        print(milis)
+                    
+            else:
+                 print("La lista está llena")
+
+            print("La lista es ",milis)
+
+            na=milis.pop(0)
+            print("El elemento que se va a salir es : ",na)
+            
+            print(milis)
+
+        print("---------------------------------------------------------   ")
+        print()
+    elif opcion=="3":
+        class ficha :
+            def init(self):
+                pass
+
+            def menu(self,opciones):
+            
+                print("-------------------  Usted ingresó al menu Lista -------------------  ")
+                for opcion in opciones:
+                    print(opcion)
+
+                opc=input("digite la ficha personal [1...{}]: ".format(len(opciones)))
+                return opc                 
+            milis=[]
+            print("-------------------  Usted ingresó al menu Lista -------------------  ")
+            print("Cuantos elementos va a desear ")
+            cant=int(input())
+            os.system("cls")
+            i=0
+            if cant <8:
+                    print("La lista esta vacía")
+                
+            while i<cant:
+                        print("Ingresar")
+                        nom=input()
+                        milis.append(nom)
+                        i+=1
+                        
+                        print("Las lista está vacía")
+                        os.system("cls")
+                        print(milis)
+                    
+            else:
+                    print("La lista está llena")
+
+            sacar=input("Cual es el elemento que desea sustraer : ")
+                    
+            os.system("cls")
+            for x in range(len(milis)-1,-1,-1):
+                        if milis[x]== sacar:
+                            print(milis.pop(x))
+            print(milis)
+
+            sa=input("Desea averiguar la posicion en la que se encuentra su elemento : ")
+            
+            print("Posicion : ",milis.index(sa))
+    else:
+            print()
+    opcion=help.menu(Lista)
+print("Gracias Por Visitar Nuestro Sitio Vuelva Pronto")
