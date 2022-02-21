@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UFT-8">
+        <title>La peste negra</title>
+        <link rel="stylesheet" href="colors.css"> 
+    </head>
+    <body>
+        <h1> La Peste negra </h1>
+        <hr>
+        <h2>La historia de la peste negra </h2>
+        <p>La Peste Negra, también conocida como la Pestilencia o Gran Mortalidad, fue la pandemia más fatal registrada en la historia de la humanidad, lo que resultó en la muerte de hasta 200 millones.</p>
+        <p>de personas, desde Eurasia hasta el norte de África, y alcanzó su punto máximo en Europa desde 1347 hasta 1351. La peste, es una zoonosis causada por la bacteria Yersinia pestis y el resultado.</p>
+
+        <p>A partir de ahí, posiblemente fue transportada por pulgas que vivían en las ratas negras que viajaban en barcos mercantes genoveses, se extendió en toda la cuenca del Mediterráneo</p>
+        
+        <left><img width="400px" src="https://historia.nationalgeographic.com.es/medio/2018/02/28/el-triunfo-de-la-muerte-detalle__1280x1427.jpg" alt="pintura"></left> 
+        <p>La peste, fue provocada por la Yersinia pestis que reside en el tracto digestivo de las pulgas que habitan usualmente en las ratas, animales que viven en gran número y densidad.</p>
+        <p>Estas áreas son llamadas “focos de peste” o “reservas de peste” (6). Las especies Rattus rattus y Rattus norvegicus migraron desde Oriente Medio, a la altura de la quinta cruzada (1217-1221)</p> 
+        <p>bajo el auspicio del papa Inocencio III. Para las leyendas históricas, los roedores salvajes circulaban en las urbes y generaban las reservas de peste.</p>
+        <p>Según el historiador Scheidel (2019, p. 314), en las primeras décadas del siglo XIV, los roedores llevaron pulgas infectadas a China, el sur de India, el oeste de Oriente Próximo, el Mediterráneo y Europa.</p>
+        <h2>Sintomas de la peste negra</h2> <hr>
+        <ul>
+            <li>Aparición repentina de fiebre y escalofríos.</li><br>
+            <li>Dolor de cabeza.</li><br>
+            <li>Cansancio o malestar general.</li><br>
+            <li>Dolores musculares.</li><br>
+            <li>Dolor abdominal, diarrea y vómitos.</li><br>
+            <li>Sangrado de la boca, la nariz, el recto o debajo de la piel.</li><br>
+            <li>Se hizo uso de la propaganda, destinada especialmente a levantar la moral de las tropas.</li><br>
+        </ul>
+    </body>
+</html>
